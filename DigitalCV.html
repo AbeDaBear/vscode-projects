@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abel's Digital CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -71,10 +72,12 @@
     <hr>
     <section>
     <table>
-        <caption>School attanded</caption>
+        <caption>
+            <h2>Education</h2>
+        </caption>
         <tr>
              <th>Year</th>
-              <th>Education</th>
+              <th>School attanded</th>
                <th>Location</th>
             </tr>
         <tr>
@@ -88,6 +91,22 @@
          <td>Houston, TX</td>
         </tr>
     </table>
+   </section>
+   <hr>
+   <section>
+    <h2>Contact me</h2>
+    <p><strong>Feel free to reach out to me with any questions or opportunities.</strong></p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
    </section>
     
 
