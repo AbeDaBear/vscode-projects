@@ -1,0 +1,27 @@
+body {
+   background: linear-gradient(to right,#3ac1d6 65%, #701f2d);
+}
+
+h1 {
+    background-color:#701f2d;
+    color:#000000;
+    text-align: center;
+    font-size: 3em;
+    width: 50%;
+    margin: auto;
+    font-family: 'Lucida console', sans-serif;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px #3ac1d6;
+   font-weight: 400;
+}
+
+h2 {
+    background-color:#701f2ddf ;
+    text-decoration: underline;
+    background-position: center;
+    width:35%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #3ac1d6
+}
+
+
