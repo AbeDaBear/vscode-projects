@@ -4,79 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abel's Digital CV</title>
- <link rel="stylesheet" href="style.css">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   </head>
 <body>
     <header>
         <h1>Abel Risinger's Digital CV</h1>
-            <img src="imgs/download.jpg" height="100" width="500" alt="coding picture">
+            <img src="imgs/download.jpg" alt="coding picture" id="codingpicture">
     </header>
     <hr>
     <nav>
-        <ul>
+        <ul id="nav">
             <li><a href="index.html">Scratchpad</a></li>
             <li><a href="DigitalCV.html">Digital CV</a></li>
         </ul>
+    </nav>
     
 <main>
-    <section-info>
+    <section class="info">
         <h2>Personl information</h2>
            <p id="info">Email address: Abel.Risinger@gmail.com
               <br>Phone number: (281) 837-6160
               <br>City, State: Syracuse, NY
            </p>
         <hr>
-    </section-info>
-    <section-summary>
+    </section>
+    <section class="summary">
         <h2>Summary</h2>
             <p id="summary">Highly motivated and detail-oriented individual with a passion for technology and coding.
              I am currently seeking a position in the tech industry where I can utilize my skills and knowledge to help develop new and innovative software solutions.
             </p>
-    </section-summary>
+    </section>
 <hr>
-    <section-skills>
+    <section class="skills">
         <h2>Skills</h2>
-       <p id="skills"> <ul>
+        <ul id="skills">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
     </p>
-        <hr>
-    </section-skills>
-    <section-hobbies>
-        <h2>Hobbies listed by how much i do them</h2>
-        <ol>
+    </section>
+    <hr>
+    <section class="hobbies">
+        <h2 id="hobbieshead">Hobbies listed by how much i do them</h2>
+        <ol id="hobbies">
             <li>Playing video games</li> <!-- Fallout new vegas is my favorite game -->
             <li>Reading Manga</li>
             <li>Watching movies</li>
         </ol>
 
-    </section-hobbies>
+    </section>
     <hr>
-    <section-experience>
+    <section class="Experience">
         <h2>Experience</h2>
            <h3>Amazon - Picker</h3>
-              <p>November 2022 - Present
+              <p class="amazon">November 2022 - Present
                   <ul>
                         <li>Responsible for picking and packing orders</li>
                         <li>Ensuring that orders are correct and on time</li>
                   </ul>
                 </p>
             <h3>Securitas - Security Guard</h3>
-                <p>June 2020 - November 2022
+                <p class="securitas">June 2020 - November 2022
                     <ul>
                         <li>Responsible for patrolling and securing the premises of SYR1 airport.</li>
                         <li>Ensuring that all employees are safe and secure, while on duty at the DMV.</li>
                     </ul>
                 </p>
-    </section-experience>
+    </section>
     <hr>
-    <section-education>
+    <section class="Education">
     <table>
         <caption>
             <h2>Education</h2>
         </caption>
+        <section class="table">
         <tr>
              <th>Year</th>
               <th>School attanded</th>
@@ -92,8 +95,9 @@
             <td>North Shore Senior High School</td>
          <td>Houston, TX</td>
         </tr>
+        </section>
     </table>
-   </section-education>
+   </section>
    <hr>
    <footer>
        <p>Abel Risinger's Digital CV</p>
