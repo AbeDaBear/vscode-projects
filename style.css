@@ -1,27 +1,210 @@
 body {
-   background: linear-gradient(to right,#3ac1d6 65%, #701f2d);
+    font-family: "Roboto Condensed", sans-serif;
+    background: linear-gradient(to right, #288c9c 65%, #701f2d);
+    font-weight: 485;
 }
 
 h1 {
-    background-color:#701f2d;
-    color:#000000;
-    text-align: center;
+    background-color: #701f2d;
+    color: #000000;
+    text-align: 10px 10px 10px 10px;
     font-size: 3em;
     width: 50%;
     margin: auto;
+    padding: .5rem;
     font-family: 'Lucida console', sans-serif;
     text-decoration: underline;
     text-shadow: 3px 2px 5px #3ac1d6;
-   font-weight: 400;
+    font-weight: 500;
+    min-width: fit-content;
+    max-width: fit-content;
 }
 
 h2 {
-    background-color:#701f2ddf ;
+    background-color: #701f2ddf;
+    margin: 0 auto .5rem;
     text-decoration: underline;
     background-position: center;
-    width:35%;
+    width: 35%;
     text-align: center;
     text-shadow: 2px 2px 4px #3ac1d6
 }
 
+#codingpicture {
+    margin: auto;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 700px;
+    height: 125px;
+}
+#info {
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 100px;
+    padding: .5rem;
+    background-color: #3ac1d6;
+}
+nav {
+    background-color: #701f2ddf;
+    text-align: left;
+    margin: 0 auto 3em;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    text-shadow: 3px 2px 5px #3ac1d6;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+nav a:hover {
+    color: #3ac1d6;
+}
+#summary {
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 75px;
+    padding: .5rem;
+    background-color: #3ac1d6;
+}
+#skills {
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 65px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
 
+.hobbies>h2 {
+    background-color: #701f2ddf;
+    margin: 0 auto .5rem;
+    text-decoration: underline;
+    background-position: center;
+    width: 65%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #3ac1d6
+}
+
+#hobbies {
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 65px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
+h3 {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #3ac1d6;
+    margin: center;
+}
+
+.amazon {
+    margin: 0 auto .5em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 20px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
+
+.amazon+ul {
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 50px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
+
+.securitas{
+    margin: 0 auto .5em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 20px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
+
+.securitas+ul{
+    margin: 0 auto 2em;
+    display: block;
+    border: 2px solid #701f2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #288c9c;
+    width: 500px;
+    height: 50px;
+    padding: 0 0 0 .5rem;
+    background-color: #3ac1d6;
+    list-style-position: inside;
+}
+caption {
+    margin: auto;
+}
+table {
+    border: 2px solid #701f2d;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  td {
+    border: 1px solid #701f2d;
+  }
+  
+  .table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+
+
+
+
+
+
+
+footer {
+    background-color: #701f2ddf;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+    margin: 3em auto 0;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #3ac1d6;
+    text-shadow: 3px 2px 5px #3ac1d6;
+}
