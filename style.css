@@ -2,13 +2,12 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     background: linear-gradient(to right, #288c9c 65%, #701f2d);
     font-weight: 800;
-    
+
 }
 
 h1 {
     background-color: #701f2d;
     color: #000000;
-    text-align: 10px 10px 10px 10px;
     font-size: 3em;
     width: 50%;
     margin: auto;
@@ -52,6 +51,7 @@ h2 {
     left: 20px;
     min-width: fit-content;
 }
+
 #info {
     margin: 0 auto 2em;
     display: inline-block;
@@ -62,22 +62,21 @@ h2 {
     height: 100px;
     padding: .5rem;
     background-color: #3ac1d6;
-    box-sizing: content-box;
-    min-width: fit-content;
+
 }
+
 .info {
     position: relative;
     left: 200px;
     bottom: 0px;
-    right: -0;
-     margin: 0 0 0 0;
-     width: 40%;
-     min-width: fit-content;
+    margin: 0 0 0 0;
+    width: 800px;
 }
+
 nav {
     background-color: #701f2ddf;
     text-align: left;
-    margin: 5em  2em;
+    margin: 5em 2em;
     width: 700px;
     height: 30px;
     border: 2px solid #3ac1d6;
@@ -90,16 +89,19 @@ nav {
     bottom: 0px;
     min-width: fit-content;
 }
+
 nav a {
     text-decoration: none;
     color: #000000;
     font-size: 1.5em;
     margin: 0 1em;
-    min-width: fit-content;   
+    min-width: fit-content;
 }
+
 nav a:hover {
     color: #3ac1d6;
 }
+
 #summary {
     margin: 0 auto 0 0;
     display: inline-block;
@@ -110,20 +112,17 @@ nav a:hover {
     height: 75px;
     padding: .5rem;
     background-color: #3ac1d6;
-    box-sizing: content-box;
-    min-width: fit-content;
-    
+    max-width: none;
+
 }
+
 .summary {
-   position: relative;
-   left: 750px;
-   bottom: 244px;
-   right: -0;
-    margin: 0 0 0 0;
-    width: 20%;
-    min-width: fit-content;
-   
+    position: relative;
+    left: 760px;
+    bottom: 230px;
+    width: 800px;
 }
+
 #skills {
     margin: 0 auto 2em 0;
     display: inline-block;
@@ -136,13 +135,14 @@ nav a:hover {
     background-color: #3ac1d6;
     list-style-position: inside;
 }
+
 .skills {
     position: relative;
     bottom: 183px;
     left: 760px;
-     margin: 0 0 0 0;
-     width: 15%;
-    
+    margin: 0 0 0 0;
+    width: 600px;
+
 }
 
 .hobbies>h2 {
@@ -170,12 +170,13 @@ nav a:hover {
     top: 70px;
     right: 458px;
 }
+
 .hobbies {
     position: relative;
     bottom: 355px;
     left: 200px;
-     margin: 0 0 0 0;
-     width: 90%;
+    margin: 0 0 0 0;
+    width: 1665px;
 }
 
 
@@ -191,6 +192,7 @@ h3 {
     background-color: #3ac1d6;
     width: 500px;
 }
+
 .Experience {
     display: inline-block;
     position: relative;
@@ -198,13 +200,14 @@ h3 {
     left: 200px;
     margin: 0 auto 0;
 }
+
 .amazon {
     margin: 0 auto .5em;
     display: inline-block;
     border: 2px solid #701f2d;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #701f2d;
-    width: 500px;
+    width: 300px;
     height: 20px;
     padding: 0 0 0 .5rem;
     background-color: #3ac1d6;
@@ -227,16 +230,16 @@ h3 {
     list-style-position: inside;
     position: relative;
     top: -2px;
-    left: 42px;
+    left: 245px;
 }
 
-.securitas{
+.securitas {
     margin: 0 auto .5em;
-    display:inline-block;
+    display: inline-block;
     border: 2px solid #701f2d;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #701f2d;
-    width: 500px;
+    width: 300px;
     height: 20px;
     padding: 0 0 0 .5rem;
     background-color: #3ac1d6;
@@ -247,9 +250,9 @@ h3 {
 }
 
 
-.securitas+ul{
+.securitas+ul {
     margin: 0 auto 2em;
-    display:inline-block;
+    display: inline-block;
     border: 2px solid #701f2d;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #701f2d;
@@ -260,8 +263,18 @@ h3 {
     list-style-position: inside;
     position: relative;
     top: -2px;
-    left: 42px;
-    
+    left: 245px;
+
+}
+
+.Experience>hr {
+    border: 2px solid #701f2d;
+    width: 120%;
+    margin: 0 auto 0;
+    position: relative;
+    top: 5px;
+    left: -100px;
+
 }
 
 .Education {
@@ -277,6 +290,7 @@ h3 {
 caption {
     margin: auto;
 }
+
 table {
     border: 2px solid #701f2d;
     width: 70%;
@@ -286,17 +300,18 @@ table {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #701f2d;
 
-  }
-  
-  td {
+}
+
+td {
     border: 1px solid #701f2d;
     border-radius: 5px;
-  }
-  
-  .table {
+}
+
+.table {
     width: 100%;
     overflow-x: auto;
-  }
+}
+
 #Abel {
     margin: .5em 5em 0;
     display: inline-block;
@@ -312,37 +327,15 @@ table {
     z-index: 1;
 }
 
-.forms {
-    margin: auto;
+.forminput {
+    margin: 3px;
 }
 
-input[type="emails"] {
-    display: inline-block;
+.formmessage {
+    margin: 3px;
     position: relative;
-   
-}
-input[type="name"] {
-    display: inline-block;
-    position: relative;
-   
-}
-
-
-input[type="submit"] {
-    display: inline-block;
-    position: relative;
-    top: 20px;
-    right: 100px;
-    cursor: pointer;
-    
-
-}
-input[type="message"] {
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-  
-    
+    right: 10px;
+    bottom: 4px;
 }
 
 input[type="submit"]:hover {
@@ -354,6 +347,16 @@ input[type="submit"]:hover {
     text-shadow: 3px 2px 5px #3ac1d6;
 }
 
+#message {
+    position: relative;
+    top: 4px;
+    width: 170px;
+}
+
+input {
+    height: 20px;
+}
+
 form {
     margin: 0 auto 2em;
     display: inline-block;
@@ -362,12 +365,12 @@ form {
     box-shadow: 5px 5px 5px #288c9c;
     width: 500px;
     height: 120px;
-    padding: 0 0 5px .5rem;
+    padding: 0 0 5px 0;
     background-color: #3ac1d6;
     list-style-position: inside;
 }
 
- .forms>h2{
+.forms>h2 {
     background-color: #3ac1d6;
     margin: 0 auto .5rem;
     text-decoration: underline;
@@ -375,6 +378,7 @@ form {
     text-align: center;
     text-shadow: 2px 2px 4px #3ac1d6;
 }
+
 hr {
     border: 2px solid #701f2d;
     width: 70%;
@@ -382,7 +386,7 @@ hr {
     position: relative;
     top: 5px;
     left: -150px;
-   min-width: fit-content;
+    min-width: fit-content;
 }
 
 
@@ -400,3 +404,317 @@ footer {
     bottom: 0px;
     right: 10%;
 }
+
+/* this part is for the cell phone view */
+@media (max-width: 700px) {
+    body {
+        font-size: .6em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    #codingpicture {
+        width: 400px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+    }
+
+    hr {
+        width: 80%;
+        position: relative;
+        left: 10px;
+
+    }
+
+    .info {
+        position: relative;
+        bottom: 60px;
+        left: 10px;
+    }
+
+    #info {
+        width: 400px;
+        height: 70px;
+        font-size: 1.8em;
+        position: relative;
+        top: 80px;
+        right: 207px;
+    }
+
+    h2 {
+        width: 200px;
+        font-size: 1.9em;
+    }
+
+    nav {
+        font-size: 1.5em;
+        width: 100px;
+
+    }
+
+    .summary {
+        position: relative;
+        bottom: 50px;
+        left: 10px;
+    }
+
+    #summary {
+        font-size: 1.5em;
+        width: 400px;
+        height: 65px;
+        position: relative;
+        top: 90px;
+        right: 207px;
+    }
+
+    #skills {
+        font-size: 1.5em;
+        width: 400px;
+    }
+
+    .skills {
+        position: relative;
+        bottom: -130px;
+        left: 10px;
+        width: 90%;
+    }
+
+    #hobbies {
+        font-size: 1.5em;
+        width: 400px;
+        height: 65px;
+        position: relative;
+        top: 65px;
+        right: 304px;
+    }
+
+    .hobbies {
+        position: relative;
+        bottom: 150px;
+        left: 10px;
+    }
+
+    .hobbies>h2 {
+        font-size: 1.8em;
+        margin: 0 auto 0;
+        width: 300px;
+    }
+
+    h3 {
+        width: 180px;
+    }
+
+    .Experience {
+        font-size: 1.4em;
+        width: 400px;
+        position: relative;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    .amazon {
+        font-size: 1.1em;
+        position: relative;
+        left: 0px;
+        top: 2px;
+        width: 400px;
+
+    }
+
+    .amazon+ul {
+        font-size: 1.1em;
+        width: 400px;
+        position: relative;
+        top: 2px;
+        left: 0px;
+    }
+
+    .securitas+ul {
+        font-size: 1em;
+        width: 400px;
+        position: relative;
+        top: 2px;
+        left: 0px;
+    }
+
+    .securitas {
+        font-size: 1.1em;
+        position: relative;
+        left: 0px;
+        top: 2px;
+        width: 400px;
+    }
+
+    .Experience>hr {
+        border: 2px solid #701f2d;
+        width: 127%;
+        margin: 0 auto 0;
+        position: relative;
+        top: 5px;
+        left: 55px;
+
+    }
+
+    .Education {
+
+        width: 400px;
+        position: relative;
+        bottom: 20px;
+        left: 10px;
+    }
+
+    caption {
+        font-size: 1.5em;
+    }
+
+    table {
+        font-size: 1.5em;
+        width: 400px;
+        height: 100px;
+    }
+
+    #Abel {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 0;
+        position: fixed;
+        left: 20px;
+        top: 220px;
+    }
+
+    form {
+        font-size: 1.1em;
+        width: 350px;
+        height: 100px;
+        padding: 3px;
+    }
+
+    footer {
+        font-size: 1.5em;
+        width: 400px;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    input[type="submit"] {
+        position: relative;
+        top: 16px;
+        right: 100px;
+    }
+
+    .forms>h2 {
+        font-size: 1.8em;
+        width: 200px;
+    }
+
+    input[type="message"] {
+        float: right;
+        right: 30px;
+        margin: 0 0 0 0;
+    }
+
+
+}
+
+/* @media (max-width: 1000px) {
+    body {
+        font-size: .8em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+    #codingpicture {
+        width: 500px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+    }
+    hr {
+        width: 80%;
+        position: relative;
+        left: 10px;
+        
+    }
+    
+    .info {
+        position: relative;
+        bottom: 60px;
+        left: 0px;
+    }
+    #info {
+        width: 400px;
+        height: 70px;
+        font-size: 1.5em;
+        position: relative;
+        top: 90px;
+        right: 207px;
+    }
+    h2 {
+        width: 200px;
+        font-size: 1.9em;
+    }
+
+    nav {
+        font-size: 1.5em;
+        width: 100px;
+
+    }
+    .summary {
+        position: relative;
+        bottom: 190px;
+        left: 450px;
+    }
+    #summary {
+        font-size: 1.1em;
+        width: 400px;
+        height: 65px;
+        position: relative;
+        top: 90px;
+        right: 207px;
+    }
+         #skills{
+        font-size: 1.5em;
+        width: 500px;
+    }
+   .skills {
+        position: relative;
+        bottom: -130px;
+        left: 10px;
+        width: 100%;
+    }
+    #hobbies {
+        font-size: 1.5em;
+        width: 500px;
+        height: 65px;
+        position: relative;
+        top: 65px;
+        right: 304px;
+    }
+    .hobbies {
+        position: relative;
+        bottom: 150px;
+        left: 10px;
+    }
+    .hobbies>h2 {
+        font-size: 1.8em;
+        margin: 0 auto 0;
+        width: 300px;
+    }
+
+    h3 {
+        width: 180px;
+    }
+
+    .Experience {
+        font-size: 1.4em;
+        width: 500px;
+        position: relative;
+        bottom: 0px;
+        left: 10px;
+    }
+} */
